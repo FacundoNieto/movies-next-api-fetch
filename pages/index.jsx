@@ -5,7 +5,8 @@ const HomePage = () => {
   return (
     <Container> {/* es un componente de bootstrap */}
 
-      <h1 className="text-center my-3"> Qué onda Moncho? </h1>
+      <h1 className="text-center my-3"> Movies </h1>
+      <h3 className="text-center my-3"> Hola gatos, empecé a laburar de programador jaja </h3>
 
       <MovieList />
 
