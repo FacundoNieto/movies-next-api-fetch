@@ -10,7 +10,7 @@ import MovieWrapper from "../context/movies/moviesContext" /*con este componente
 const MyApp = ({ Component, pageProps }) => {
   return (
     <div className="main__content">
-      <MovieWrapper> {/*los componentes hijos de este componente podrán usar el estado creado por createContext en el archivo moviesContext.jsx*/}
+      <MovieWrapper> {/*los componentes hijos de este componente podrán usar el estado (o variable global) creado por createContext en el archivo moviesContext.jsx*/}
         <Header />
         <Component {...pageProps} /> {/*este componente representa o tiene la información de todos los componentes que retornen las funciones de los archivos de la carpeta pages (o sea las páginas del proyecto)*/}
       </MovieWrapper>

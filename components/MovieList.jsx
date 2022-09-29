@@ -2,16 +2,16 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap'
 import { useContext } from 'react';
-import { movieContext } from '../context/movies/moviesContext' /*es el contexto creado para poder pasar información entre componentes sin respetar las jerarquías */
+import { movieContext } from '../context/movies/moviesContext' /*es el contexto creado para poder pasar información entre componentes sin respetar las jerarquías entre componentes */
 import Link from 'next/link';
 
 const MovieList = () => {
 
   //const movies = useContext(movieContext); /*Se invoca a la variable global o contexto creado en moviesContext.jsx. Se almacena en "movies" el valor asignado al atributo "value" del componente movieContext.Provider (moviesContext.jsx) */
   const { movies } = useContext(movieContext); //solo quiero saber la info del atributo movies del objeto almacenado en movieContext
-  if (movies.length !== 0) {
-    // console.log("movies: >> ", movies);
-  }
+  // if (movies.length !== 0) {
+     // console.log("movies: >> ", movies);
+  // }
 
   return (
     <Row>

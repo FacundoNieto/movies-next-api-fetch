@@ -32,7 +32,7 @@ const MoviesId = ({data}) => { /*data proviene de la función getServerSideProps
 }
 
 // todo lo que sucede en la función getServerSideProps() sucede en el servidor, por lo que los console.log
-// solo pueden verse en la terminal de VSC... no en la consola del browser (google o brave)
+// solo pueden verse en la terminal de VSC... no en la consola del browser (google, brave, mozilla, etc..)
 
 
 export async function getServerSideProps(ctx){ /*qué es ctx? */

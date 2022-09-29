@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const axiosFetch = axios.create({ /*axiosFetch será un objeto que al ser llamado realizará una petición GET ya que  "las peticiones serán por defecto GET si method no es especificado" https://axios-http.com/es/docs/req_config */
+const axiosFetch = axios.create({ /*axiosFetch será un objeto que al ser llamado realizará una petición GET ya que "las peticiones serán por defecto GET si method no es especificado" https://axios-http.com/es/docs/req_config */
   baseURL: 'https://api.themoviedb.org/3',
   headers: {
     'Content-Type': 'application/json',
